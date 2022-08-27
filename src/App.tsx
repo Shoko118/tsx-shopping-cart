@@ -70,6 +70,10 @@ const App = () => {
     }, 0);
   };
 
+  useEffect(() => {
+    getProducts();
+  }, [itemNumber, totalPrice]);
+
   return (
     <div className="flex items-start">
       <div className="w-[50%]">
