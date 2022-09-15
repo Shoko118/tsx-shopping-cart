@@ -1,4 +1,4 @@
-import type { ICart } from "../interface/interface";
+import type { ICart } from "../interface/interface.ts";
 
 interface Props {
   carts: ICart[];
